@@ -1,8 +1,8 @@
 {
-    "name": "panoscape/history",
+    "name": "nastasin/history",
     "description": "Eloquent model history tracking for Laravel",
     "keywords": ["laravel", "log", "history", "tracking", "eloquent", "model"],
-    "homepage": "https://github.com/seancheung/history",
+    "homepage": "https://github.com/nastal/history",
     "require": {
         "php": "^7.2|^7.2.5|^7.3|^8.0|^8.1",
         "illuminate/support": "^6.0|^7.0|^8.0|^9.0"   
@@ -12,11 +12,17 @@
         {
             "name": "Sean Cheung",
             "email": "theoxuanx@gmail.com"
+        },
+        {
+            "name": "Alex Nastasin",
+            "email": "alex.nastasin@gmail.com",
+            "homepage": "https://nastas.in",
+            "role": "Fork developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Panoscape\\History\\": "src/"
+            "Nastasin\\History\\": "src/"
         }
     },
     "scripts": {
@@ -26,7 +32,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Panoscape\\History\\Tests\\": "tests/"
+            "Nastasin\\History\\Tests\\": "tests/"
         }  
     },
     "require-dev": {
@@ -38,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Panoscape\\History\\HistoryServiceProvider"
+                "Nastasin\\History\\HistoryServiceProvider"
             ],
             "aliases": {
-                "History": "Panoscape\\History\\History"
+                "History": "Nastasin\\History\\History"
             }
         }
     }
