@@ -1,10 +1,10 @@
 <?php
 
-namespace Panoscape\History\Listeners;
+namespace Nastasin\History\Listeners;
 
-use Panoscape\History\Events\ModelChanged;
-use Panoscape\History\HistoryObserver;
-use Panoscape\History\History;
+use Nastasin\History\Events\ModelChanged;
+use Nastasin\History\HistoryObserver;
+use Nastasin\History\History;
 
 class HistoryEventSubscriber
 {
@@ -35,7 +35,7 @@ class HistoryEventSubscriber
     public function subscribe($events)
     {
         $events->listen(
-            \Panoscape\History\Events\ModelChanged::class,
+            \Nastasin\History\Events\ModelChanged::class,
             static::class.'@onModelChanged'
         );
     }
