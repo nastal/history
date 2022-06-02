@@ -1,6 +1,6 @@
 <?php
 
-namespace Panoscape\History;
+namespace Nastasin\History;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Auth;
