@@ -1,6 +1,6 @@
 <?php
 
-namespace Panoscape\History\Events;
+namespace Nastasin\History\Events;
 
 use Illuminate\Queue\SerializesModels;
 
