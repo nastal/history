@@ -1,6 +1,6 @@
 <?php
 
-namespace Panoscape\History;
+namespace Nastasin\History;
 
 use Illuminate\Database\Eloquent\Model;
 
