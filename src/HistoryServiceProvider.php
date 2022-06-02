@@ -1,6 +1,6 @@
 <?php
 
-namespace Panoscape\History;
+namespace Nastasin\History;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Event;
