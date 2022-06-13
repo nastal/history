@@ -13,6 +13,3 @@ Laravel 9.x
 ```shell
 composer require nastasin/history
 ```
-
-See docs in 
-
